@@ -31,13 +31,6 @@ Evaluar el rendimiento de cuatro tiendas mediante:
 
    - Descarga `alurastorelatam.ipynb` desde este repositorio.
    - Súbelo a Google Colab.
-   - Alternativamente, abre el cuaderno directamente en Colab usando el enlace de GitHub:
-
-     ```
-     https://colab.research.google.com/github/tu_usuario/tu_repositorio/blob/main/alurastorelatam.ipynb
-     ```
-
-     (Reemplaza `tu_usuario/tu_repositorio` con tu información).
 
 2. **Ejecutar el cuaderno**:
 
@@ -141,33 +134,6 @@ Las siguientes visualizaciones están incluidas en el cuaderno y se generan en `
      - Tienda 2
      - Tienda 3
      - Tienda 4
-
-*(Si subes las imágenes al repositorio, actualiza las URLs con las rutas correctas. Si no, omite los enlaces y explica que se generan al ejecutar el cuaderno.)*
-
-## Notas sobre GitHub
-
-El visor de cuadernos de GitHub no renderiza contenido dinámico (como el mapa interactivo) debido a restricciones de seguridad, mostrando el mensaje `Make this Notebook Trusted to load map`. Para evitar esto:
-
-- Usa el enlace proporcionado para `mapa_ventas_tiendas.html`.
-- Alternativamente, visualiza el cuaderno en nbviewer pegando la URL del `.ipynb`:
-
-  ```
-  [https://github.com/tu_usuario/tu_repositorio/blob/main/alurastorelatam.ipynb](https://github.dev/degartHub/analisis_de_tienda/blob/main/AluraStoreLatam.ipynb)
-  ```
-
-## Exportar Resultados
-
-Para exportar el informe con imágenes incrustadas:
-
-1. En Colab, ejecuta:
-
-   ```python
-   !pip install nbconvert
-   !jupyter nbconvert --to html alurastorelatam.ipynb
-   from google.colab import files
-   files.download('alurastorelatam.html')
-   ```
-2. Sube el `.html` a GitHub para un informe portátil.
 
 ## Licencia y Créditos
 
