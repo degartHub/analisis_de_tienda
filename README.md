@@ -18,12 +18,7 @@ Evaluar el rendimiento de cuatro tiendas mediante:
 
 - `alurastorelatam.ipynb`: Cuaderno principal con el código y el informe en Markdown.
 - `mapas/mapa_ventas_tiendas.html`: Mapa interactivo de Folium que muestra la distribución geográfica de las ventas.
-- `imagenes/` (opcional): Carpeta con visualizaciones generadas:
-  - `distribucion_ingresos_por_tienda.png`: Gráfico de pastel de ingresos.
-  - `calificacion_promedio_por_tienda.png`: Gráfico de barras de calificaciones.
-  - `costo_de_envio_promedio_por_tienda.png`: Gráfico de barras de costos de envío.
-  - `ventas_por_categoria.png`: Gráfico de líneas de ventas por categoría.
-  - `ventas_tienda_1.png`, `ventas_tienda_2.png`, `ventas_tienda_3.png`, `ventas_tienda_4.png`: Gráficos de barras de ventas por producto.
+
 
 ## Instrucciones de Ejecución
 
